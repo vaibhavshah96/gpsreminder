@@ -1,0 +1,170 @@
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+.heading{
+    color:blue;
+    font-size:30px;
+}
+
+.badge{
+    color:white;
+    background-color: red;
+    margin-left:60px;
+}
+
+#panel, #flip {
+    padding: 10px;
+    text-align: left;
+    background-color:white;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+#panel1, #flip1 {
+    padding: 10px;
+    text-align: left;
+    background-color:white;
+    border: solid 1px #c3c3c3;
+}
+
+#panel1 {
+    padding: 50px;
+    display: none;
+}
+
+#panel2, #flip2 {
+    padding: 10px;
+    text-align: left;
+    background-color:white;
+    border: solid 1px #c3c3c3;
+
+}
+
+#panel2 {
+    padding: 50px;
+    display: none;
+}
+/* for calender*/
+
+.w3-sidebar a{
+    text-decoration: none;
+}
+
+.changing{
+    padding-top: 30px;
+}
+
+.change{
+    border-radius: 5px;
+    background-color: #FC0F04  ;
+    border: 0px;
+    margin-top:0px;
+    
+}
+
+.done{
+    border-radius: 5px;
+    background-color: #5CF124 ;
+    border: 0px;
+    margin-top:0px;
+}
+
+.btn{
+    background-color: white;
+    color:grey;
+    margin-top:0px;
+    padding-bottom:0px;
+    
+}
+
+.btn1{
+    background-color: white;
+    color:red;
+    margin-top:0px;
+    padding-bottom:0px;
+    border: 0px;
+    
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.p1{
+    font-size:20px;
+    color:#249DF1  ;
+}
+
+#btn5{
+    background-color:#249DF1;
+    color:white;
+    border:0px; 
+}
+
+#btn6{
+    margin-top: 20px;
+    background-color:#379E13  ;
+    color:white; 
+    border:0px;
+    border-radius: 5px;
+    font-size: 20px
+
+}
+
+
+/*for the calender in some day*/
+
+.agenda {  }
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+
+/* Events */
+.agenda .agenda-events {  } 
+.agenda .agenda-events .agenda-event {  } 
+
+@media (max-width: 767px) {
+    
+}
+
+
+
+
+
+
+

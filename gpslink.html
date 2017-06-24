@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>gps reminder</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css\w3school.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/gps.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+
+
+
+  <script src="css/gps.css"></script>
+   <script src="js/gps.js"></script>
+</head>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+   <a href="#" class="w3-bar-item w3-button">
+            <form>
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for task.." title="Type in a name">
+            </form>
+            <!--for chossing alphabetically-->
+            <ul id="myUL">
+      <li><a href="#" class="header">t</a></li>
+      <li><a href="gps1.html">today</a></li>
+      <li><a href="gps2.html">tomorrow</a></li>
+
+      <li><a href="#" class="header">s</a></li>
+      <li><a href="gps3.html">some day</a></li>
+
+        
+    </ul>
+
+
+        </a>
+  <a href="gps.html" class="w3-bar-item w3-button">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="gps1.html" class="w3-bar-item w3-button">Today&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge">5</span></a>
+  <a href="gps2.html" class="w3-bar-item w3-button">Tomorrow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge">1</span></a>
+  <a href="gps3.html" class="w3-bar-item w3-button">Some day&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge">2</span></a>
+  
+
+</div>
+
+<div zclass="w3-main" id="main">
+
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <!--<div class="w3-container">
+    <h1>My Page</h1>
+  </div>-->
+</div>
+
+
+
+<div class="w3-container">
+<button type="button" class="btn btn-info btn-lg pull-right"  id="btn6" data-toggle="modal" data-target="#myModal">done</button>
+
+
+        <p class="p1">Enter your task</p>
+        <input type="text" name="textField">
+        <p class="p1">Describe your task</p>
+        <textarea rows="4" cols="50">
+
+        </textarea>
+        <p class="p1">set date</p>
+        <input type="date">
+        
+         
+    <p class="p1">Select location</p>
+    <a href="addPlace.html"><button type="button" name="button" id="btn5" >set location</button> </a>
+     <a href=""><button type="button" name="button" id="btn5">default location</button> </a>
+     <a href="gpsNearby.html"><button type="button" name="button" id="btn5" >near by</button> </a>
+
+    <div class="container">
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Successfully Entered</h4>
+        </div>
+        <div class="modal-body">
+          <p>1 Task is included more</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+</div>
+
+  
+  
+</div>
+
+     
+</body>
+</html> 
